@@ -16,7 +16,7 @@ a,
 .clients span strong,
 .pricing-content li i ,
 .text_content,
-#resume .col-md-6 span.duration,
+.resumePage .col-md-6 span.duration,
 .attributes span.glyphicon, 
 .attributes h6,
 .hobbies h6 i,
@@ -159,7 +159,8 @@ a.download,
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out; 
 }
-#resume .resume-left ul li h5 {
+
+.resumePage .resume-left ul li h5 {
 	  border-bottom: 1px solid #0487CC; 
 }
 
