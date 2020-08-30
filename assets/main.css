@@ -3757,3 +3757,20 @@ img {
     width: 100%;
     height: 300px;
 }
+.contact_strong{
+    width: 75px;
+    display: inline-block;
+}
+.contact_font{
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+}
+.contact_strong i{
+    margin-right: 5px;
+}
+.contact_list li{
+    margin-bottom: 5px;
+    letter-spacing: 0.1em;
+}
+.contact_list li a{
+    color:white;
+}
