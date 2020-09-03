@@ -882,7 +882,7 @@ p.medium {
     padding: 37px;
 }
 .bg_desc {
-    background-color: #f3f0f0;
+    background-color: white;
 }
 .bg_info {
     color: #fff;
@@ -1785,16 +1785,16 @@ p.medium {
 ===============================================
 */
 
-#resume {
+.resumePage {
     background:#fff;
 }
 
-#resume .page_content {
+.resumePage .page_content {
     overflow-y: hidden;
     outline: none;
     padding: 20px 0;
 }
-#resume .title-section  {
+.resumePage .title-section  {
    margin-left:0;
 }
 .title_content {
@@ -1836,36 +1836,36 @@ p.medium {
     margin-bottom: 5px;
 }
 
-#resume .col-md-6 span.duration {
+.resumePage .col-md-6 span.duration {
     float: right;
 }
-#resume .col-md-6 ul li {
+.resumePage .col-md-6 ul li {
     list-style: none;
     margin-top: 20px;
 }
-#resume .resume-left ul li h5 {
+.resumePage .resume-left ul li h5 {
     padding-bottom: 10px;
     color: #444;
 	font-weight: bold;
 }
-#resume .attributes {
+.resumePage .attributes {
     margin-bottom: 30px;
 }
-#resume .attributes li.first{
+.resumePage .attributes li.first{
     margin-top: 0 !important;
 }
 
-#resume .attributes .duration i{
+.resumePage .attributes .duration i{
     margin-right: 5px;
 }
 
-#resume h5,
-#resume h6 {
+.resumePage h5,
+.resumePage h6 {
     font-weight:400;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#resume p {
+.resumePage p {
     color: #7a7c82;
     line-height: 24px;
     margin: 0 0 20px;
@@ -1923,7 +1923,7 @@ p.medium {
   line-height: 13px;
   text-transform: capitalize;
 }
-#resume h6 {
+.resumePage h6 {
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -3756,4 +3756,21 @@ img {
 .coding {
     width: 100%;
     height: 300px;
+}
+.contact_strong{
+    width: 75px;
+    display: inline-block;
+}
+.contact_font{
+    font-family: Montserrat, "Open Sans", Arial, sans-serif;
+}
+.contact_strong i{
+    margin-right: 5px;
+}
+.contact_list li{
+    margin-bottom: 5px;
+    letter-spacing: 0.1em;
+}
+.contact_list li a{
+    color:white;
 }
